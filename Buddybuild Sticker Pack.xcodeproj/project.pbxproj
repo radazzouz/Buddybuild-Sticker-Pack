@@ -37,7 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		849EF90E1DAD2E6800263C9A /* Buddybuild Sticker Pack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buddybuild Sticker Pack.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849EF90E1DAD2E6800263C9A /* buddybuild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = buddybuild.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849EF9121DAD2E6900263C9A /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		849EF9161DAD2E6900263C9A /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -54,7 +54,7 @@
 		849EF90F1DAD2E6800263C9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				849EF90E1DAD2E6800263C9A /* Buddybuild Sticker Pack.app */,
+				849EF90E1DAD2E6800263C9A /* buddybuild.app */,
 				849EF9121DAD2E6900263C9A /* StickerPackExtension.appex */,
 			);
 			name = Products;
@@ -63,9 +63,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		849EF90D1DAD2E6800263C9A /* Buddybuild Sticker Pack */ = {
+		849EF90D1DAD2E6800263C9A /* buddybuild */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 849EF91F1DAD2E6900263C9A /* Build configuration list for PBXNativeTarget "Buddybuild Sticker Pack" */;
+			buildConfigurationList = 849EF91F1DAD2E6900263C9A /* Build configuration list for PBXNativeTarget "buddybuild" */;
 			buildPhases = (
 				849EF90C1DAD2E6800263C9A /* Resources */,
 				849EF91E1DAD2E6900263C9A /* Embed App Extensions */,
@@ -75,9 +75,9 @@
 			dependencies = (
 				849EF9151DAD2E6900263C9A /* PBXTargetDependency */,
 			);
-			name = "Buddybuild Sticker Pack";
+			name = buddybuild;
 			productName = "Buddybuild Sticker Pack";
-			productReference = 849EF90E1DAD2E6800263C9A /* Buddybuild Sticker Pack.app */;
+			productReference = 849EF90E1DAD2E6800263C9A /* buddybuild.app */;
 			productType = "com.apple.product-type.application.messages";
 		};
 		849EF9111DAD2E6900263C9A /* StickerPackExtension */ = {
@@ -128,7 +128,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				849EF90D1DAD2E6800263C9A /* Buddybuild Sticker Pack */,
+				849EF90D1DAD2E6800263C9A /* buddybuild */,
 				849EF9111DAD2E6900263C9A /* StickerPackExtension */,
 			);
 		};
@@ -317,14 +317,16 @@
 				849EF91D1DAD2E6900263C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		849EF91F1DAD2E6900263C9A /* Build configuration list for PBXNativeTarget "Buddybuild Sticker Pack" */ = {
+		849EF91F1DAD2E6900263C9A /* Build configuration list for PBXNativeTarget "buddybuild" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				849EF9201DAD2E6900263C9A /* Debug */,
 				849EF9211DAD2E6900263C9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
