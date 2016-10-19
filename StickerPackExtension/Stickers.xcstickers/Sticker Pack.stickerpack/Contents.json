@@ -1,7 +1,31 @@
 {
   "stickers" : [
     {
-      "filename" : "logo-dark@2x.sticker"
+      "filename" : "taco.sticker"
+    },
+    {
+      "filename" : "mobile-optimized.sticker"
+    },
+    {
+      "filename" : "message-received.sticker"
+    },
+    {
+      "filename" : "Deployed.sticker"
+    },
+    {
+      "filename" : "Apps.sticker"
+    },
+    {
+      "filename" : "beach-mobile.sticker"
+    },
+    {
+      "filename" : "LGTM.sticker"
+    },
+    {
+      "filename" : "adam-wink.sticker"
+    },
+    {
+      "filename" : "cat-mobile.sticker"
     }
   ],
   "info" : {
